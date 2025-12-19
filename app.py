@@ -70,11 +70,12 @@ from keras_multi_head import MultiHeadAttention
 MODEL_PATH = "hair-diseases.hdf5"
 
 # 🔴 REPLACE THIS WITH YOUR REAL FILE ID
-MODEL_URL = "https://drive.google.com/file/d/1Ypd-C6CQB7_Y3xuefVysi9GU4L0D_819/view?usp=sharing"
+MODEL_URL = "https://drive.google.com/uc?id=1Ypd-C6CQB7_Y3xuefVysi9GU4L0D_819"
 
 if not os.path.exists(MODEL_PATH):
     print("Downloading model from Google Drive...")
-    gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
+    gdown.download(MODEL_URL, MODEL_PATH, quiet=False, fuzzy=True)
+
 
 # =========================
 # LOAD MODEL (ONCE)
