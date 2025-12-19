@@ -2,6 +2,6 @@ fastapi
 uvicorn
 tensorflow
 pillow
-numpy
 python-multipart
 keras-multi-head
+gdown
