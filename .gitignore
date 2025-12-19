@@ -1,0 +1,24 @@
+# Android
+.gradle/
+.local/
+.idea/
+build/
+*.iml
+
+# Kotlin / Java
+*.class
+
+# Emulator
+captures/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+.venv/
+.env
+
+# Model files (optional if too large)
+*.hdf5
