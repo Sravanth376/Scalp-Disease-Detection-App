@@ -20,5 +20,5 @@ __pycache__/
 .venv/
 .env
 
-# # Model files (optional if too large)
-# *.hdf5
+# Model files (optional if too large)
+*.hdf5
